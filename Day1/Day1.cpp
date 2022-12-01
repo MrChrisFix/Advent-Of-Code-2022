@@ -18,7 +18,7 @@ int Day1_Part1(string filePath)
 {
 	ifstream file;
 
-	file.open("Day1/Values.txt");
+	file.open(filePath);
 	if (file.is_open())
 	{
 		string num;
@@ -50,7 +50,7 @@ int Day1_Part2(string filePath)
 {
 	ifstream file;
 
-	file.open("Day1/Values.txt");
+	file.open(filePath);
 	if (file.is_open())
 	{
 		string num;
